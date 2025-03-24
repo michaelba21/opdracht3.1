@@ -1,0 +1,211 @@
+
+/*    !* Algemene stijlen *!*/
+/** {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*html, body {*/
+/*    height: 100%;*/
+/*    font-family: Arial, sans-serif;*/
+/*}*/
+
+/*!* Globale pagina layout *!*/
+/*.container {*/
+/*    display: flex;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*!* Zijmenu *!*/
+/*.sidebar {*/
+/*    flex: 0 0 250px; !* Vaste breedte van 250px *!*/
+/*    background-color: #f4f4f4;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*    border-right: 2px solid #ccc;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.logo {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    gap: 10px;*/
+/*    font-size: 0.75rem;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.logo img {*/
+/*    width: 25px;*/
+/*    height: 25px;*/
+/*}*/
+
+/*.menu {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 20px;*/
+/*    font-size:  0.75rem;*/
+/*}*/
+/*.menu img {*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*}*/
+
+/*.menu a {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    gap: 10px;*/
+/*    text-decoration: none;*/
+/*    color: #333;*/
+/*    padding: 10px;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*.menu a.active {*/
+/*    background-color: #ddd; !* Grijze achtergrond voor actieve link *!*/
+/*}*/
+
+/*.menu-buttons {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 10px;*/
+/*}*/
+
+/*.meld button {*/
+/*    background-color: #fcfefe; !* Achtergrondkleur voor "Meld je aan" *!*/
+/*    color: rgb(10, 9, 9);*/
+/*    border: none;*/
+/*    padding: 10px;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    width: 100%;*/
+/*    border:1px solid black;*/
+/*}*/
+
+/*.login button {*/
+/*    background-color: black; !* Achtergrondkleur voor "Login" *!*/
+/*    color: white;*/
+/*    border: none;*/
+/*    padding: 10px;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    width: 100%;*/
+/*}*/
+
+/*!* Hoofdcontent *!*/
+/*.content {*/
+/*    flex: 1;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    overflow-y: auto; !* Scrollbaar bij lange content *!*/
+/*}*/
+
+/*!* Header *!*/
+/*.header {*/
+/*    background-image: url('https://raw.githubusercontent.com/hogeschoolnovi/frontend-html-css-flexbox/f8b7aeda5cef9d597a1ae4d8f737986a98fbf560/assets/placeholder-image.svg');*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    padding: 50px 20px;*/
+/*    text-align: center;*/
+/*    color: black;*/
+/*}*/
+
+/*.header h1 {*/
+/*    font-size: 2.5rem;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.header p {*/
+/*    font-size: 1rem;*/
+/*    max-width: 600px;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*!* Productkaarten *!*/
+/*.product-cards {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*    gap: 20px;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.card {*/
+/*    flex: 1 1 260px;*/
+/*    max-width: 260px;*/
+/*    background-color: white;*/
+/*    border: 1px solid #ddd;*/
+/*    border-radius: 10px;*/
+/*    padding: 20px;*/
+/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 10px;*/
+/*}*/
+
+/*.card img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*.card h3 {*/
+/*    font-size: 1.25rem;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.card p {*/
+/*    font-size: 0.9rem;*/
+/*    color: #555;*/
+/*}*/
+/*.smalllogo {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.smalllogo ul {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    gap: 130px;*/
+/*    list-style-type: none;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+
+/*.smalllogo ul li {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.smalllogo ul img {*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*}*/
+/*.card button{*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    padding: 10px 20px;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    width:100%;*/
+/*}*/
+
+
+/*!* Footer *!*/
+/*.footer {*/
+/*    background-color: #383838;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    padding: 20px;*/
+/*}*/
+/*.gap {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 10px;*/
+/*    justify-content: space-between;*/
+/*}*/
+
